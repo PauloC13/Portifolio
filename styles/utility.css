@@ -18,14 +18,16 @@
 .grid-flow-row {
     grid-auto-flow: row;
 }
-
+.grid-flow-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
 .gap-16{
     gap:16px;
 }
 
 .justify-center{
-    justify-content: center;
-    
+    margin-inline: auto;
+
 }
 
 .margin-top-80{
